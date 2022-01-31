@@ -28,6 +28,7 @@ EOF
   }
 }
 
+
 resource "aws_lambda_function" "analysis_lambda" {
   # lambda have plain text secrets in environment variables
   filename      = "resources/lambda_function_payload.zip"
